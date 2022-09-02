@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: Descargando Imagen Docker
+      command:
+        docker run elgalle79/diplomatura2022s1:programcontainer
